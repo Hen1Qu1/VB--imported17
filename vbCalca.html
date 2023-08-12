@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VB-imported</title>
+    <link rel="stylesheet" href="vbCSS/vb.css">
+    <link rel="stylesheet" href="vbCSS/vbcamisa.css"/>
+    <script src="vbJS/vb-funcoes.js"></script>
+    <script src="vbJS/value.js"></script>
+    <script src="vbJS/car2.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+   <header>
+       <hgroup id="titulo-vb">
+          <h1>VB-imported</h1>
+          <h3>Encontre sua Moda</h3>
+       </hgroup>
+   
+       <img id="img-logovb" src="vbPHOTO/logoVB.jpeg" alt="logo-vb" width="188px"/>
+
+      <nav id="nav-vb">
+         <ul type="disc">
+           <li><a href="index.html">Sobre</a></li>
+           <li><a href="vbcamisa.html">Polo/Camisa</a></li>
+           <li><a href="vbCalca.html">Calça/Bermuda</a></li> 
+           <li><a href="vbFrio.html">Roupa de Frio</a></li> 
+         </ul>
+      </nav>
+   </header> 
+
+   <div id="vb-form">
+
+      <h2 class="vb-model">Bermuda Jogador</h2>
+      <img class="vb-cami" src="vbPHOTO/bermuPreto.jpeg" alt="" id="id-bermU" width="350px"/>
+
+      <div class="vb-preco"><h1 id="preco">R$ 9,90</h1></div>
+
+     <hgroup id="vb-select">  
+      <h3><label for="vb-color4">ESCOLHA A COR </label><select name="vb-color"  onchange="mudaFoto4(this);" id="vb-color4">
+             <option value="vbPHOTO/bermuPreto.jpeg">PRETO</option>
+             <option value="vbPHOTO/bermuBranca.jpeg">BRANCA</option>
+             <option value="vbPHOTO/bermuAzul.jpeg">AZUL</option>
+             <option value="vbPHOTO/bermuVerde.jpeg">VERDE</option>
+      </select></h3>
+
+      <h3><label for="vb-size4">ESCOLHA O TAMANHO </label><select name="vb-size" id="vb-size4">
+          <option>P</option>
+          <option>M</option>
+          <option>G</option>
+          <option>GG</option>
+      </select></h3>
+    </hgroup> 
+
+      <hgroup id="vb-gene-quant">
+        <h2>Genero: M</h2>
+        <h2>Malha: DRYFIT</h2>
+        <label for="vb-quantid4"><h2>Quantidade:</label><input type="number" name="box-value" id="vb-quantid4" required="" min="1" max="100"/></h2>
+      </hgroup> 
+
+      <p class="VBaviso">Informe as especificações das peças que deseja, e vá até o final da pagina, para adicionar ao carrinho.</p>
+   </div>
+
+
+  
+  <div id="vb-form">
+
+    <h2 class="vb-model">Calça Jeans</h2>
+    <img class="vb-cami" src="vbPHOTO/calca1.jpeg" alt="" id="id-calcA" width="350px"/>
+
+    <div class="vb-preco"><h1 id="preco">R$ 55,90</h1></div>
+
+   <hgroup id="vb-select">  
+    <h3><label for="vb-color5">ESCOLHA A CALÇA</label><select name="vb-color"  onchange="mudaFoto5(this);" id="vb-color5">
+           <option value="vbPHOTO/calca1.jpeg">modelo - 1</option>
+           <option value="vbPHOTO/calca2.jpeg">modelo - 2</option>
+           <option value="vbPHOTO/calca3.jpeg">modelo - 3</option>
+           <option value="vbPHOTO/calca4.jpeg">modelo - 4</option>
+           <option value="vbPHOTO/calca5.jpeg">modelo - 5</option>
+           <option value="vbPHOTO/calca6.jpeg">modelo - 6</option>
+           <option value="vbPHOTO/calca7.jpeg">modelo - 7</option>
+           <option value="vbPHOTO/calca8.jpeg">modelo - 8</option>
+           <option value="vbPHOTO/calca9.jpeg">modelo - 9</option>
+    </select></h3>
+
+    <h3><label for="vb-size5">ESCOLHA O TAMANHO </label><select name="vb-size" id="vb-size5">
+        <option>34</option>
+        <option>35</option>
+        <option>36</option>
+        <option>37</option>
+        <option>38</option>
+        <option>39</option>
+        <option>40</option>
+        <option>41</option>
+        <option>42</option>
+        <option>43</option>
+        <option>44</option>
+        <option>45</option>
+        <option>46</option>
+        <option>47</option>
+        <option>48</option>
+    </select></h3>
+  </hgroup> 
+
+    <hgroup id="vb-gene-quant">
+      <h2>Genero: M</h2>
+      <h2>Malha: JEANS</h2>
+      <label for="vb-quantid5"><h2>Quantidade:</label><input type="number" name="box-value" id="vb-quantid5" required="" min="1" max="100"/></h2>
+    </hgroup>  
+
+    <p class="VBaviso">Informe as especificações das peças que deseja, e vá até o final da pagina, para adicionar ao carrinho.</p>
+  </div>
+
+<input type="button" value="ADICIONAR AO CARRINHO" onclick="buttonFinal2()" name="polo-car" id="poloCar"/></br>
+
+<hgroup id="divBuyFinal2">
+  <div id="bermuPlayer"></div>
+  <div id="preco_tot_finalB"></div>
+  <div id="d1"></div>
+  <div id="d2"></div>
+  <div id="d3"></div>
+  <div id="d4"></div>
+  <div id="d5"></div>
+  <div id="d6"></div>
+
+  
+  <div id="separar1"></div>
+  <div id="separar2"></div> 
+  
+
+  <div id="calcaPlayer"></div>
+  <div id="preco_tot_"></div>
+  <div id="d7"></div> 
+  <div id="d8"></div>
+  <div id="d9"></div>
+  <div id="d10"></div>
+  <div id="d11"></div>
+  <div id="d12"></div>
+</hgroup>
+
+   <div id="separar3"></div>
+   <div id="separar4"></div> 
+
+   <div id="compraFinal2"></div>
+   <div id="canceledd2"></div>
+
+   <hgroup id="vb-location">
+      <p>ENDEREÇO: Av. Contorno, 1529 - Setor Norte Ferroviário</p>
+      <p>Goiania - GO, 74063-350 </p>
+      <p class="loca-vb">LOCALIZAÇÃO: Corredor 11,  Box 428</p>
+   </hgroup>
+
+ </div>    
+</body>
+</html>
