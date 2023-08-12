@@ -1,0 +1,167 @@
+
+img.vb-cami {
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+h2.vb-model {
+    margin-bottom: -15px;
+}
+
+div.vb-preco {
+    font-size: 20px;
+    margin: 5px;
+    margin-top: -10px;
+}
+
+select {
+    font-size: 12pt;
+}
+
+div#vb-form {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    padding-top: 8px;
+    border-bottom: 1px solid black;
+}
+
+input#payPolo {
+    font-size: 15pt;
+ }
+
+ 
+input#poloCar {
+    background-color: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 230px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+ }
+
+input#vb-quantid {
+   outline: none;
+   border: none;
+   border-bottom: 1px solid black;
+   font-size: 15pt;
+}
+
+input#vb-quantid2 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15pt;
+}
+
+input#vb-quantid3 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15pt;
+}
+
+input#vb-quantid4 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15pt;
+}
+
+input#vb-quantid5 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15pt;
+}
+
+select#vb-color {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+select#vb-color2 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+select#vb-team3 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+select#vb-color4 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+select#vb-color5 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+hgroup#vb-gene-quant {
+  display: block;
+  position: relative;
+  margin-left: -12px;
+}
+
+hgroup#divBuyFinal {
+   padding-left: 10px;    
+   font-size: 18px;
+}
+
+hgroup#divBuyFinal2 {
+    padding-left: 10px;    
+    font-size: 18px;
+ }
+
+codd {
+    display: block;
+    position: relative;
+    right: 15px;
+    margin-bottom: 0px;
+}
+
+p.VBaviso {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+input#buttonCanceled_car {
+    background-color: red;
+    color: white;
+    border-style: outset;
+    border-color: red;
+    height: 50px;
+    width: 230px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+input#buyNow {
+    background-color: rgb(1, 39, 13);
+    color: white;
+    border-style: outset;
+    border-color:  rgb(1, 39, 13);
+    height: 50px;
+    width: 150px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
